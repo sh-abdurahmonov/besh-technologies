@@ -1,0 +1,119 @@
+.about-section__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4.8rem 0rem;
+}
+.about-section__intro-title {
+  margin-bottom: 4.8rem;
+}
+.our-mission {
+  border-top: 2px solid #12182b;
+  margin-bottom: 4.8rem;
+}
+.our-vision {
+  margin-bottom: 4.8rem;
+}
+.our-mission,
+.our-vision {
+  padding: 4.8rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 7rem;
+}
+.about-section__img {
+  width: 100%;
+  max-width: 62.2rem;
+  height: 100%;
+  max-height: 45.1rem;
+}
+.about-section__intro {
+  margin-bottom: 1.6rem;
+}
+.about-section__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.about-section__title {
+  font-size: 3.2rem;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #12182b;
+  width: 100%;
+  max-width: 60rem;
+  margin-bottom: 3.2rem;
+}
+.about-section__text {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #666;
+  width: 100%;
+  max-width: 45rem;
+}
+@media screen and (max-width: 1000px) {
+  .our-mission,
+  .our-vision {
+    justify-content: center;
+    text-align: center;
+    padding: 4.8rem 0rem;
+  }
+  .about-section__content {
+    align-items: center;
+  }
+  .our-mission {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 815px) {
+  .about-section__text {
+    max-width: 55rem;
+  }
+  .about-section__content {
+    margin-bottom: 3.2rem;
+  }
+  .our-vision {
+    margin-bottom: 0rem;
+  }
+  .about-section__container {
+    padding: 3.2rem 0rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  .our-mission,
+  .our-vision {
+    padding: 3.6rem 0rem;
+  }
+  .about-section__title {
+    margin-bottom: 2.4rem;
+    font-size: 2.8rem;
+  }
+  .about-section__intro {
+    font-size: 2.8rem;
+  }
+  .about-section__text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 505px) {
+  .about-section__title {
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+  }
+  .our-mission,
+  .our-vision {
+    padding: 3rem 0rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .about-section__title {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+}

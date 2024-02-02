@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 498.44 300.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f7931e;
+        font-family: Taxicab-Bold, Taxicab;
+        font-size: 32px;
+      }
+
+      .cls-1, .cls-2 {
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: url(#_Безымянный_градиент_17);
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4.8px;
+      }
+
+      .cls-6 {
+        letter-spacing: .05em;
+      }
+
+      .cls-7 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2 {
+        font-family: FuturaLTPaneuropean-Bold, 'Futura LT Paneuropean';
+        font-size: 200px;
+      }
+
+      .cls-8 {
+        fill: url(#_Безымянный_градиент_17-2);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_17" data-name="Безымянный градиент 17" x1=".06" y1="150.27" x2="133.56" y2="150.27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fca92c"/>
+      <stop offset="1" stop-color="#fc752c"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_17-2" data-name="Безымянный градиент 17" x1="0" y1="31.21" x2="30.58" y2="31.21" xlink:href="#_Безымянный_градиент_17"/>
+  </defs>
+  <g id="_Слой_10" data-name="Слой 10">
+    <g>
+      <g>
+        <g>
+          <path class="cls-3" d="m66.85,99.63c-25.9.74-36.23,7.77-36.23,7.77v-39.91l-30.57.07v102.19c0,43.95,40.89,63.3,66.79,63.3s66.71-19.12,66.71-66.71-40.81-67.45-66.71-66.71Z"/>
+          <circle class="cls-4" cx="67.01" cy="166.44" r="36.43"/>
+          <line class="cls-5" x1="33.03" y1="104" x2="32.95" y2="167.56"/>
+          <path class="cls-8" d="m23.09,0H7.49C3.35,0,0,4.6,0,8.74v46.19c0,4.14,3.35,7.49,7.49,7.49h15.6c4.14,0,7.49-3.35,7.49-7.49V8.74c0-4.14-3.35-8.74-7.49-8.74Zm6.18,18.83v15.48l-3.62.47v-6.38l3.62-9.57h0Zm-1.9-4.53l-2.94,11.29H6.16l-2.95-11.29s11.79-4.01,24.16,0h0ZM4.97,28.81v5.96l-3.62-.46v-15.07l3.62,9.57Zm-3.62,21.53v-13.75l3.62.46v10.88l-3.62,2.42Zm2.07,3.91l2.94-4.43h18.27l2.94,4.43H3.42Zm22.23-6.74v-10.45l3.62-.47v13.33l-3.62-2.42Z"/>
+        </g>
+        <text class="cls-2" transform="translate(141.65 232.8)"><tspan x="0" y="0">esh</tspan></text>
+      </g>
+      <text class="cls-1" transform="translate(0 290.8) scale(1.1 1)"><tspan class="cls-6" x="0" y="0">Safet</tspan><tspan class="cls-7" x="78.4" y="0">y</tspan><tspan class="cls-6" x="94.5" y="0">, comfort</tspan></text>
+    </g>
+  </g>
+</svg>
