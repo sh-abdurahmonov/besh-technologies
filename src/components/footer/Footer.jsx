@@ -16,6 +16,7 @@ function Footer({ textAnimation }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
   return (
     <motion.footer
       initial="hidden"

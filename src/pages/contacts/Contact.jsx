@@ -4,10 +4,41 @@ import "./Contact.css";
 import ContactImg from "../../assets/contact-img.svg";
 // react
 import { motion } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
+import emailjs from "@emailjs/browser";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function Contact({ textAnimation }) {
-  // scroll top
+  //! sending data
+  const form = useRef();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await emailjs.sendForm(
+        "service_ekrcq0n",
+        "template_jkm98lo",
+        form.current,
+        {
+          publicKey: "mIugaRSrMOiqO0z6R",
+        }
+      );
+      // Show success toast message
+      toast.success("Message sent successfully!", {
+        className: "toast-message",
+      });
+      form.current.reset();
+      // Reset the form fields after successful submission
+      form.current.reset();
+    } catch (error) {
+      // Show error toast message
+      console.log(error.message);
+      toast.error(`Failed to send message: ${error.status}`, {
+        className: "toast-message",
+      });
+    }
+  };
+  //! scroll top
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -166,11 +197,17 @@ function Contact({ textAnimation }) {
             frameborder="0"
           ></iframe>
           {/* FORM */}
-          <form target="blank" id="form" action="https://echo.htmlacademy.ru">
+          <form
+            ref={form}
+            onSubmit={handleSubmit}
+            target="blank"
+            id="form"
+            action="https://echo.htmlacademy.ru"
+          >
             <input
               autoComplete="off"
               id="input-text"
-              placeholder="Your Name"
+              placeholder="Name"
               required
               type="text"
               name="name"
@@ -178,7 +215,7 @@ function Contact({ textAnimation }) {
             <input
               autoComplete="off"
               id="input-email"
-              placeholder="Your Email"
+              placeholder="Email"
               required
               type="email"
               name="email"
@@ -186,13 +223,13 @@ function Contact({ textAnimation }) {
             <input
               autoComplete="off"
               id="input-call"
-              placeholder="Your Mobile Number"
+              placeholder="Call Number"
               required
               type="number"
-              name="telephone number"
+              name="number"
             />
             <textarea
-              placeholder="Your Message"
+              placeholder="Message..."
               id="input-message"
               name="message"
               cols="30"
@@ -204,6 +241,7 @@ function Contact({ textAnimation }) {
             </button>
           </form>
         </div>
+        <ToastContainer />
       </div>
     </motion.section>
   );

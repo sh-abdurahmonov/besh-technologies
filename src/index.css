@@ -85,6 +85,9 @@ body {
 .intro-title > span {
   color: #f7931e;
 }
+.toast-message {
+  font-size: 1.8rem;
+}
 @media screen and (max-width: 815px) {
   .intro-title {
     font-size: 3.6rem;

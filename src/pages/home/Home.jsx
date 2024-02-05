@@ -6,7 +6,8 @@ import CustomerFocusIcon from "../../assets/customer-focus-icon.svg";
 import ProfessionalismIcon from "../../assets/professionalism-icon.svg";
 import InnovationIcon from "../../assets/innovation-icon.svg";
 import TransparencyIcon from "../../assets/transparency-icon.svg";
-import CommentAuthorImg from "../../assets/comment-author-img.jpg";
+import BillClintonImg from "../../assets/bill-clinton-img.jpg";
+import BillGatesImg from "../../assets/bill-gates-shirt.jpg";
 // react
 import { motion } from "framer-motion";
 import { useEffect } from "react";
@@ -190,7 +191,7 @@ function Home({ textAnimation }) {
               </p>
               <div className="comment-author">
                 <img
-                  src={CommentAuthorImg}
+                  src={BillClintonImg}
                   alt="image of man"
                   className="comment-author__img"
                 />
@@ -214,13 +215,15 @@ function Home({ textAnimation }) {
               </p>
               <div className="comment-author">
                 <img
-                  src={CommentAuthorImg}
+                  src={BillGatesImg}
                   alt="image of man"
                   className="comment-author__img"
                 />
                 <div>
-                  <h3 className="comment-author__name">Client Name</h3>
-                  <span className="comment-author__job">Profession</span>
+                  <h3 className="comment-author__name">Bill Gates</h3>
+                  <span className="comment-author__job">
+                    Founder of Microsoft Corporation
+                  </span>
                 </div>
               </div>
             </motion.li>
