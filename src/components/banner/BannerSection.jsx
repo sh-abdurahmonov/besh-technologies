@@ -1,8 +1,8 @@
 // styles
 import "./BannerSection.css";
 // images
-import PLaneImg from "../../assets/plane-icon.svg";
-import PLaneImgTwo from "../../assets/plane-icon-two.svg";
+import PLaneImg from "../../assets/svg/plane-icon.svg";
+import PLaneImgTwo from "../../assets/svg/plane-icon-two.svg";
 // react
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";

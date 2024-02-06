@@ -1,6 +1,3 @@
-.contact-section {
-  /* background-color: #ffecd7; */
-}
 .contact-section__container {
   display: flex;
   flex-direction: column;
@@ -44,8 +41,8 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  max-width: 80rem;
-  max-height: 80rem;
+  max-width: 70rem;
+  max-height: 70rem;
   z-index: 1;
   /* background-color: #f7931e; */
 }

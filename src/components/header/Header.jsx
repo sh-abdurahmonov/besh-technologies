@@ -1,8 +1,8 @@
 // styles
 import "./Header.css";
 // images
-import SiteLogoLight from "../../assets/site-logo-light.svg";
-import SiteLogo from "../../assets/site-logo.svg";
+import SiteLogoLight from "../../assets/svg/site-logo-light.svg";
+import SiteLogo from "../../assets/svg/site-logo.svg";
 // icons
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross1 } from "react-icons/rx";

@@ -1,13 +1,13 @@
 // styles
 import "./Home.css";
 // images
-import IntroImg from "../../assets/intro-img.svg";
-import CustomerFocusIcon from "../../assets/customer-focus-icon.svg";
-import ProfessionalismIcon from "../../assets/professionalism-icon.svg";
-import InnovationIcon from "../../assets/innovation-icon.svg";
-import TransparencyIcon from "../../assets/transparency-icon.svg";
-import BillClintonImg from "../../assets/bill-clinton-img.jpg";
-import BillGatesImg from "../../assets/bill-gates-shirt.jpg";
+import IntroImg from "../../assets/svg/intro-img.svg";
+import CustomerFocusIcon from "../../assets/svg/customer-focus-icon.svg";
+import ProfessionalismIcon from "../../assets/svg/professionalism-icon.svg";
+import InnovationIcon from "../../assets/svg/innovation-icon.svg";
+import TransparencyIcon from "../../assets/svg/transparency-icon.svg";
+import BillClintonImg from "../../assets/jpg/bill-clinton-img.jpg";
+import BillGatesImg from "../../assets/jpg/bill-gates-shirt.jpg";
 // react
 import { motion } from "framer-motion";
 import { useEffect } from "react";

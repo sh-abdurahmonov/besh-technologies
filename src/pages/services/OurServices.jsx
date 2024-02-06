@@ -5,10 +5,10 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 // images
-import SeoIcon from "../../assets/seo-icon.svg";
-import WebsiteIcon from "../../assets/website-icon.svg";
-import DesignIcon from "../../assets/design-icon.svg";
-import MobileIcon from "../../assets/mobile-icon.svg";
+import SeoIcon from "../../assets/svg/seo-icon.svg";
+import WebsiteIcon from "../../assets/svg/website-icon.svg";
+import DesignIcon from "../../assets/svg/design-icon.svg";
+import MobileIcon from "../../assets/svg/mobile-icon.svg";
 function OurServices({ textAnimation }) {
   // scroll top
   const { pathname } = useLocation();

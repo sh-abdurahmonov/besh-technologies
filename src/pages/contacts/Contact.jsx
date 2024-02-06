@@ -1,7 +1,7 @@
 // styles
 import "./Contact.css";
 // images
-import ContactImg from "../../assets/contact-img.svg";
+import ContactImg from "../../assets/svg/contact-img.svg";
 // react
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
@@ -68,7 +68,7 @@ function Contact({ textAnimation }) {
             custom={2}
             variants={textAnimation}
             src={ContactImg}
-            alt=""
+            alt="Contact intro image"
             className="contact-header__img"
           />
         </div>

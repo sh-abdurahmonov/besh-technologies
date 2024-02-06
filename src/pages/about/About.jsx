@@ -1,8 +1,8 @@
 // styles
 import "./About.css";
 // images
-import OurMission from "../../assets/about-banner.png";
-import OurVision from "../../assets/our-vision.png";
+import OurMission from "../../assets/png/about-banner.png";
+import OurVision from "../../assets/png/our-vision.png";
 // react
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";

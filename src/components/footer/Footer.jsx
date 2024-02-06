@@ -1,10 +1,10 @@
 // styles
 import "./Footer.css";
 // images
-import TelegramIcon from "../../assets/telegram-icon.svg";
-import InstagramIcon from "../../assets/instagram-icon.svg";
-import FacebookIcon from "../../assets/facebook-icon.svg";
-import SiteLogo from "../../assets/site-logo-light.svg";
+import TelegramIcon from "../../assets/svg/telegram-icon.svg";
+import InstagramIcon from "../../assets/svg/instagram-icon.svg";
+import FacebookIcon from "../../assets/svg/facebook-icon.svg";
+import SiteLogo from "../../assets/svg/site-logo-light.svg";
 // react
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
