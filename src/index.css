@@ -101,6 +101,12 @@ body {
   cursor: pointer;
   animation: translating 2s infinite;
 }
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
 @keyframes translating {
   0% {
     transform: translateY(0%);

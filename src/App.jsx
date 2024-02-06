@@ -5,6 +5,7 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
+import { useState, useEffect } from "react";
 // icons
 import { IoIosArrowDropupCircle } from "react-icons/io";
 // components
@@ -17,6 +18,20 @@ import OurServices from "./pages/services/OurServices";
 import About from "./pages/about/About";
 import Contact from "./pages/contacts/Contact";
 function App() {
+  const [showScrollButton, setShowScrollButton] = useState(false);
+  //
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setShowScrollButton(scrollTop > 800);
+    };
+    //
+    window.addEventListener("scroll", handleScroll);
+    //
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   function ScrollTop() {
     window.scrollTo(0, 0);
   }
@@ -71,7 +86,9 @@ function App() {
         <Footer textAnimation={textAnimation} />
       </Router>
 
-      <IoIosArrowDropupCircle onClick={ScrollTop} className="scroll-up-btn" />
+      {showScrollButton && (
+        <IoIosArrowDropupCircle onClick={ScrollTop} className="scroll-up-btn" />
+      )}
     </>
   );
 }
