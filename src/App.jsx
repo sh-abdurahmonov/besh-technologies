@@ -5,10 +5,7 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
-import { useState } from "react";
-
 // icons
-import { FaArrowUp } from "react-icons/fa";
 import { IoIosArrowDropupCircle } from "react-icons/io";
 // components
 import Header from "./components/header/Header";
